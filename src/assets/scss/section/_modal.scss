@@ -1,0 +1,121 @@
+.fullscreen__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10001; // 헤더보다 더 높은 z-index를 설정합니다.
+    background: linear-gradient(70deg, rgb(187, 198, 169), rgb(166, 192, 217));
+    color: black;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .modal__left{
+    width: 40%;
+    height: 100%;
+    border: #000 1px solid;
+    display: flex;          
+    align-items: center;     
+    justify-content: center; 
+    flex-direction: column;
+  }
+  .modal__container{
+    margin: auto;
+  }
+  .modal__icon{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px; 
+  }
+  .modal__title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .modal__profile{
+  }
+  .modal__contact{
+    margin-bottom: 20px;
+    line-height: 2;
+    user-select: text;
+  }
+  .btn {
+    color: #b97d7d;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 9rem;
+    border-radius: 7px;
+    background-image: linear-gradient(120deg, #c1d1eb 0%, #c2e9fb 100%);
+}
+  .img{
+    width: 30px;
+    margin: 0 15px;
+  }
+  .modal__about{
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 50%; 
+    }
+  }
+
+  .modal__right{
+    width: 60%;
+    height: 100%;
+    border: #000 1px solid;
+  }
+  .modal__card{
+    margin: 10px 10px;
+    width: 98%;
+    height: 98%;
+    background: linear-gradient(180deg, rgb(236, 241, 227, 0.7), rgb(205, 230, 255, 0.7));
+    border-radius: 10px;
+  }
+  .modal__stacks{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+  .modal__var {
+    display: flex;
+    border-top: 1px solid rgba(0,0,0,.08);
+    position: relative;
+    color: #804d4d;
+    flex: 1;
+}
+
+.modal__var::before {
+    content: attr(data-text);
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: #ffffffcb;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+  
+@media screen and (min-width: 768px) {
+    .modal__contact {
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .modal__contact {
+        line-height: 1.8;
+    }
+}

@@ -30,8 +30,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__right">
-                    &copy; 2023 webstoryboy<br />
-                    이 사이트는 리액트를 이용하여 제작하였습니다.
+                    &copy; 2023 Kim Young Min<br />
+                    본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
                 </div>
             </div>
         </footer>

@@ -41,7 +41,18 @@ export const introText = {
      ,"개발자로서의 여정이 행복하고 의미 있는 일이 되면 좋겠습니다."
      ,""]
 }
-
+export const modalText = {
+    title: "안녕하세요🙋‍♂️",
+    desc: ["개발자 김영민입니다."
+    ,"현재 사이트는 React / Gsap / FullPage 등을 사용하여 제작되었습니다."
+    ,"제가 관심을 가지고 있는 기술이나 주제에 대해 궁금한 점이 있으시다면," 
+    ,"언제든지 연락 주시기 바랍니다."
+    ,"📧mmmin0610@gmail.com 입니다."
+    ,"저는 항상 새로운 것을 배우고, 다양한 사람들과 함께 성장하는 것을 좋아합니다."
+    , "당신과 함께 성장할 수 있는 기회를 갖게 되면 정말 기쁠 것 같습니다."
+    ,"제 웹사이트를 방문해주셔서 감사합니다." 
+    ,"좋은 하루 보내시길 바랍니다! ⛄"],
+}
 export const skillText = [
     {
         title: "꿈을 설계하고 디자인하다.",
@@ -244,4 +255,22 @@ export const footerText = [
         desc: "넥스트로 만든 사이트를 같이 만들어 봅니다.",
         link: "https://github.com/webstoryboy/port2023-next",
     },
+];
+
+export const iconLink = [
+{
+    title: "gitIcon",
+    desc: "",
+    link: "https://github.com/youngminkk",
+},
+{
+    title: "instaIcon",
+    desc: "",
+    link: "https://www.instagram.com/",
+},
+{
+    title: "tistoryIcon",
+    desc: "",
+    link: "https://mpago.tistory.com/",
+},
 ];

@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import headerlogo from "../assets/img/headerlogo__.png";
 import { headerNav } from "../constants";
+import Modal from './Modal';
 
 const Header = () => {
     const [show, setShow] = useState(false);
     const [isActive, setIsActive] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
     const toggleMenu = () => {
         setShow((prevShow) => !prevShow);
     }
     const handleClick = () => {
         setIsActive(!isActive);
+        setModalOpen(!modalOpen)
     }
     return (
         <header id="header" role="banner">
@@ -47,6 +50,9 @@ const Header = () => {
                     <li></li>
                    </ul>
                 </div>
+                  <div className="modal__open">
+                  {modalOpen && <Modal />}
+                  </div>
             </div>
         </header>
     )
