@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import headerlogo from "../assets/img/headerlogo__.png";
 import { headerNav } from "../constants";
 import Modal from './Modal';
@@ -7,6 +7,8 @@ const Header = () => {
     const [show, setShow] = useState(false);
     const [isActive, setIsActive] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
+    const [lastScrollPosition, setLastScrollPosition] = useState(0);
+    const [hideHeader, setHideHeader] = useState(false);
     const toggleMenu = () => {
         setShow((prevShow) => !prevShow);
     }
@@ -14,8 +16,19 @@ const Header = () => {
         setIsActive(!isActive);
         setModalOpen(!modalOpen)
     }
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+            setHideHeader(currentScrollY > lastScrollPosition);  
+            setLastScrollPosition(currentScrollY);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [lastScrollPosition]);
+
     return (
-        <header id="header" role="banner">
+        <header id="header" role="banner" className={hideHeader ? 'hide' : ''}>
             <div className="header__inner">
                 <div className="header__logo">
                         <a href="/"><img src={headerlogo} alt="로고"/></a>

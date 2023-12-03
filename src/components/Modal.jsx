@@ -38,17 +38,17 @@ const Modal = () => {
                     <div className='modal__about'><img src={about} alt="about" /></div>
                     <div className='btn'><span>Web Developer</span></div>
                     <div className='modal__icon'>
-                        <div className='img'>
+                        <div className='modal__img'>
                             <a href={iconLink[0].link} target="_blank" rel="noopener noreferrer">
                                 <img src={gitIcon} alt="git" />
                             </a>
                         </div>
-                        <div className='img'>
+                        <div className='modal__img'>
                             <a href={iconLink[1].link} target="_blank" rel="noopener noreferrer">
                                 <img src={instaIcon} alt="insta" />
                             </a>
                         </div>
-                        <div className='img'>
+                        <div className='modal__img'>
                             <a href={iconLink[2].link} target="_blank" rel="noopener noreferrer">
                                 <img src={tistoryIcon} alt="tistory" />
                             </a>

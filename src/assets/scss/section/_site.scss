@@ -3,11 +3,11 @@
 
     .site__title  {
         position: sticky;
-        top: 70px;
+        top: 0px;
         left: 0;
         width: 70%;
-        height: 5vw;
-        font-size: 4vw;
+        height: 4vw;
+        font-size: 3vw;
         font-weight: 900;
         line-height: 1.6;
         font-family: var(--mainKor-font);
@@ -21,7 +21,7 @@
             margin-bottom: 10vw;
             font-size: 30px;
             height: auto;
-            top: 68px;
+            top: 0px;
             z-index: 1000;
             background-color: var(--mainBg-color);
         }
@@ -42,34 +42,34 @@
 
             &.s1 {
                 background-color: var(--subBg100);
-                top: 180px;
+                top: 90px;
 
                 @media (max-width: 800px){ 
-                    top: 140px;
+                    top: 70px;
                 }
             }
             &.s2 {
                 background-color: var(--subBg200);
-                top: 200px;
+                top: 100px;
 
                 @media (max-width: 800px){ 
-                    top: 160px;
+                    top: 80px;
                 }
             }
             &.s3 {
                 background-color: var(--subBg300);
-                top: 220px;
+                top: 110px;
 
                 @media (max-width: 800px){ 
-                    top: 180px;
+                    top: 90px;
                 }
             }
             &.s4 {
                 background-color: var(--subBg400);
-                top: 240px;
+                top: 120px;
 
                 @media (max-width: 800px){ 
-                    top: 200px;
+                    top: 100px;
                 }
             }
             .num {

@@ -13,7 +13,7 @@ const Port = () => {
 
         const horizontal = horizontalRef.current;
         const sections = sectionRef.current;
-
+        
         let scrollTween = gsap.to(sections, {
             xPercent: -120 * (sections.length - 1),
             ease: "none",

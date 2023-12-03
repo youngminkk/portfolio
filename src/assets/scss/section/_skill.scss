@@ -9,11 +9,11 @@
 
     .skill__title {
         position: sticky;
-        top: 70px;
+        top: 0px;
         left: 0;
         width: 48%;
-        height: 5vw;
-        font-size: 4vw;
+        height: 4vw;
+        font-size: 3vw;
         font-weight: 900;
         line-height: 1.6;
         font-family: var(--mainKor-font);
@@ -26,7 +26,7 @@
             margin-bottom: 10vw;
             font-size: 30px;
             height: auto;
-            top: 68px;
+            top: 0px;
             background-color: var(--mainBg-color);
         }
 

@@ -19,8 +19,8 @@ const HomeView = () => {
           <Intro />
           <Skill />
           <Site />
-          <Port />
           <Contact />
+          <Port />
         </Main>
         <Footer />
     </>

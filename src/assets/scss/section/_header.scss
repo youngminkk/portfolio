@@ -1,18 +1,25 @@
 #header {
     @include position-fixed;
     z-index: 10000;
+    transition: top 0.3s ease-in-out;
+    &.hide {
+        top: -100px;  // 헤더의 높이에 따라 조정 필요
+    }
 }
 .header__inner {
     @include flex-center;
     justify-content: space-between;
     font-size: 1rem;
     font-weight: 500;
-    background-color:#111;
+    background: #111111;
     color: #fff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     padding: 1rem;
-
+    @media (max-width: 800px) {
+        height: 100%;  
+        padding: 0.5rem;  
+    }
     .header__logo {
         width: 160px;
     }
