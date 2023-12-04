@@ -8,6 +8,7 @@ import Port from "../components/Port";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
+import LoadingManager from "../components/LoadingManager";
 
 
 const HomeView = () => {

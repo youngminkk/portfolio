@@ -13,17 +13,18 @@ const Contact = () => {
     <section id="contact">
       <div className="contact">
         <div className="contact__left">
-          <div className="contact__left"></div>
-          <h1>
-            <span>김영민</span> 시리즈 영화
-          </h1>
-          <div>
-            <p>
-              드넓은 세상, 그곳에 숨은 위대한 이야기.
-              <br /> 전 세계 모든 장르의 영화가 다 모였다.
-              <br /> 드라마, 코미디, 스릴러, 로맨스, 액션!
-              <br /> 무엇이든 다 찾아보세요. 없는 게 없답니다.
-            </p>
+          <div className="contact__left">
+            <div className="contact__title" >
+              <h1>포트폴리오</h1>
+            </div>
+            <div className="contact__content">
+              <p>
+                너무 힘든 포트폴리오
+                <br /> 너무 힘든 포트폴리오
+                <br /> 너무 힘든 포트폴리오
+                <br /> 너무 힘든 포트폴리오
+              </p>
+            </div>
           </div>
         </div>
 
@@ -32,10 +33,10 @@ const Contact = () => {
           onMouseEnter={() => swiperRef.current.swiper.autoplay.stop()}
           onMouseLeave={() => swiperRef.current.swiper.autoplay.start()}
         >
+          <div></div>
           <Swiper
-            slidesPerView={2}
+            slidesPerView={1}
             centeredSlides={false}
-            spaceBetween={30}
             grabCursor={true}
             loop={true}
             pagination={{ clickable: true }}
@@ -46,6 +47,20 @@ const Contact = () => {
               disableOnInteraction: false,
             }}
             ref={swiperRef}
+            breakpoints={{
+              1000: {
+                slidesPerView: 2.3,
+                slidesPerGroup: 1,
+              },
+              800: {
+                slidesPerView: 3,
+                slidesPerGroup: 1,
+              },
+              600: {
+                slidesPerView: 2,
+                slidesPerGroup: 1,
+              },
+            }}
           >
             {portFolio.map((item, index) => (
               <div key={index}>

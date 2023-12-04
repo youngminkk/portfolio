@@ -7,19 +7,29 @@ import { iconLink } from "../constants";
 import { modalText } from "../constants";
 import { gsap } from 'gsap';
 
+
 const rotatingTexts = ['풀스택', '백엔드', '프론트'];
 const stacks = ["FrontEnd Stack", "BackEnd Stack", "CI & CD", "Infra Stack"];
 const Modal = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const modalRef = useRef(null);
     const textRef = useRef(null);
 
+    useEffect(() => {
+        gsap.fromTo(
+            modalRef.current,
+            { x: '100%' },
+            { x: '0%', duration: 1 }
+        );
+    }, []);
+    
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => {
                 const nextIndex = (prevIndex + 1) % rotatingTexts.length;
                 if (textRef.current) {
                     gsap.to(textRef.current, { opacity: 0, duration: 1.2 }).then(() => {
-                        gsap.set(textRef.current, { text: rotatingTexts[nextIndex] });
+                        textRef.current.textContent = rotatingTexts[nextIndex]; 
                         gsap.to(textRef.current, { opacity: 1, duration: 2 });
                     });
                 }
@@ -32,7 +42,7 @@ const Modal = () => {
         };
     }, []);
     return (
-        <div className="fullscreen__modal">
+        <div className="fullscreen__modal" ref={modalRef}>
             <div className="modal__left">
                 <div className='modal__container'>
                     <div className='modal__about'><img src={about} alt="about" /></div>
