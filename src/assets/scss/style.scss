@@ -5,12 +5,14 @@
 @import "setting/vars";
 @import "setting/reset";
 @import "setting/mixin";
+@import "setting/scrolldown";
 
 // section
 @import "section/loading";
+@import "section/intro";
 @import "section/header";
 @import "section/modal";
-@import "section/intro";
+@import "section/about";
 @import "section/skill";
 @import "section/site";
 @import "section/port";

@@ -43,24 +43,10 @@ import tomcatImg from '../assets/img/stack/infra/tomcat.png';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const headerNav = [
     {
         title: "about",
-        url: "#intro"
+        url: "#about"
     },
     {
         title: "skill",
@@ -80,7 +66,7 @@ export const headerNav = [
     }
 ];
 
-export const introText = {
+export const aboutText = {
     title: "about me :",
     desc: ["Kim Young Min","web developer"],
     about: ["무한히 공부하고 사고하는 개발자가 되고 싶고 동시에 개발의 즐거움이 끊임없이 이어지기를 바랍니다."

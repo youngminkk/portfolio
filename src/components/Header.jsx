@@ -8,7 +8,7 @@ const Header = () => {
     const [isActive, setIsActive] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
     const [lastScrollPosition, setLastScrollPosition] = useState(0);
-    const [hideHeader, setHideHeader] = useState(false);
+    const [hideHeader, setHideHeader] = useState(true);
     const toggleMenu = () => {
         setShow((prevShow) => !prevShow);
     }
@@ -19,7 +19,7 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
-            setHideHeader(currentScrollY > lastScrollPosition);  
+            setHideHeader(currentScrollY > lastScrollPosition || currentScrollY <= 0);  
             setLastScrollPosition(currentScrollY);
         };
 
