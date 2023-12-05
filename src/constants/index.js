@@ -12,6 +12,50 @@ import portf1 from "../assets/img/port/main_work_img_1.jpg";
 import portf2 from "../assets/img/port/main_work_img2.jpg";
 import portf3 from "../assets/img/port/main_work_img3.jpg";
 import portf4 from "../assets/img/port/main_work_img4.jpg";
+import reactImg from '../assets/img/stack/front/react.png';
+import ajaxImg from '../assets/img/stack/front/ajax.png';
+import jsImg from '../assets/img/stack/front/js.png';
+import bootstrapImg from '../assets/img/stack/front/bootstap.png';
+import jqueryImg from '../assets/img/stack/front/jquery.png';
+import javaImg from '../assets/img/stack/back/java.png';
+import mariaImg from '../assets/img/stack/back/mariadb.png';
+import oracleImg from '../assets/img/stack/back/oracle.png';
+import rdsImg from '../assets/img/stack/back/rds.png';
+import servletImg from '../assets/img/stack/back/servlet.png';
+import springImg from '../assets/img/stack/back/spring.png';
+import springbootImg from '../assets/img/stack/back/springboot.png';
+import springSecImg from '../assets/img/stack/back/springsecurity.png';
+import awsImg from '../assets/img/stack/cicd/aws.png';
+import sssImg from '../assets/img/stack/cicd/s3.png';
+import gitImg from '../assets/img/stack/infra/github.png';
+import gradleImg from '../assets/img/stack/infra/gradle.png';
+import mavenImg from '../assets/img/stack/infra/maven.png';
+import nginxImg from '../assets/img/stack/infra/nginx.png';
+import tomcatImg from '../assets/img/stack/infra/tomcat.png';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const headerNav = [
     {
@@ -267,3 +311,46 @@ export const iconLink = [
     link: "https://mpago.tistory.com/",
 },
 ];
+
+export const stackImg = [
+    {
+      category: 'frontend',
+      stacks: [
+        { name: 'React', img: reactImg },
+        { name: 'JS', img: jsImg  },
+        { name: 'jquery',  img: jqueryImg  },
+        { name: 'bootstrap',  img: bootstrapImg  },
+        { name: 'ajax',  img: ajaxImg  },
+      ],
+    },
+    {
+      category: 'backend',
+      stacks: [
+        { name: 'Java', img: javaImg },
+        { name: 'Spring', img: springImg },
+        { name: 'SpringBoot', img: springbootImg },
+        { name: 'SpringSecurity', img: springSecImg },
+        { name: 'Oracle', img: oracleImg },
+        { name: 'MariaDB', img: mariaImg },
+        { name: 'RDS', img: rdsImg },
+        { name: 'Servlet', img: servletImg },
+      ],
+    },
+    {
+      category: 'cicd',
+      stacks: [
+        { name: 'AWS', img: awsImg },
+        { name: 'S3', img: sssImg },
+      ],
+    },
+    {
+      category: 'infra',
+      stacks: [
+        { name: 'GibHub', img: gitImg },
+        { name: 'Gradle', img: gradleImg },
+        { name: 'Maven', img: mavenImg },
+        { name: 'Nginx', img: nginxImg },
+        { name: 'Tomcat', img: tomcatImg },
+      ],
+    },
+  ];

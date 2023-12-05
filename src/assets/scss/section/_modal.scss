@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 10001; // 헤더보다 더 높은 z-index를 설정합니다.
+    z-index: 10001; // 헤더보다 더 높은 z-index를 설정
     background: linear-gradient(70deg, rgb(187, 198, 169), rgb(166, 192, 217));
     color: black;
     display: flex;
@@ -35,8 +35,6 @@
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 20px;
-  }
-  .modal__profile{
   }
   .modal__contact{
     margin-bottom: 20px;
@@ -89,33 +87,95 @@
     align-items: stretch;
     height: 100%;
 }
-  .modal__var {
-    display: flex;
-    border-top: 1px solid rgba(0,0,0,.08);
-    position: relative;
-    color: #804d4d;
-    flex: 1;
+.modal__var {
+  display: flex;
+  border-top: 1px solid rgba(0,0,0,.08);
+  position: relative;
+  color: #804d4d;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.modal__var img {
+margin: 20px;
+width: 4vw;  
+height: 4vw; 
+object-fit: cover; 
+
+}
+
+.modal__var h3 {
+text-align: center;
+font-size: 15px;
+margin: 0;
 }
 
 .modal__var::before {
-    content: attr(data-text);
-    position: absolute;
-    top: -12px;
-    left: 10px;
-    background: #ffffffcb;
-    border-radius: 5px;
-    padding: 0 10px;
+  content: attr(data-text);
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background: #ffffffcb;
+  border-radius: 5px;
+  padding: 0 10px;
 }
-
-  
-@media screen and (min-width: 768px) {
-    .modal__contact {
-        line-height: 1.5;
-    }
+@media screen and (max-width: 965px) {
+  .fullscreen__modal {
+    flex-direction: column; 
+  }
+  .modal__left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 35%;
+    width: 100%;
+  }
+  .modal__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+  }
+  .modal__group{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .modal__contact{
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  .modal__about {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 10vh;
+    height: 10vh;
+  }
+ .modal__profile{
+    display: none;
+  }
+  .modal__icon {
+    margin: 0 auto;
+  }
+  .modal__right {
+    height: 65%;
+    width: 100%;
+  }
+  .modal__stacks{
+    padding: 0px;
+  }
+  .modal__var{
+    padding: 10px 0px;
+  }
 }
-
-@media screen and (min-width: 1024px) {
-    .modal__contact {
-        line-height: 1.8;
-    }
+@media screen and (max-width: 480px) {
+  .modal__group{
+    display: none;
+  }
 }

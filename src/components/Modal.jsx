@@ -6,6 +6,7 @@ import about from "../assets/img/about.jpg";
 import { iconLink } from "../constants";
 import { modalText } from "../constants";
 import { gsap } from 'gsap';
+import { stackImg } from '../constants';
 
 
 const rotatingTexts = ['풀스택', '백엔드', '프론트'];
@@ -22,15 +23,17 @@ const Modal = () => {
             { x: '0%', duration: 1 }
         );
     }, []);
-    
+
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => {
                 const nextIndex = (prevIndex + 1) % rotatingTexts.length;
                 if (textRef.current) {
                     gsap.to(textRef.current, { opacity: 0, duration: 1.2 }).then(() => {
-                        textRef.current.textContent = rotatingTexts[nextIndex]; 
-                        gsap.to(textRef.current, { opacity: 1, duration: 2 });
+                        if (textRef.current) {
+                            textRef.current.textContent = rotatingTexts[nextIndex];
+                            gsap.to(textRef.current, { opacity: 1, duration: 2 });
+                        }
                     });
                 }
                 return nextIndex;
@@ -45,6 +48,7 @@ const Modal = () => {
         <div className="fullscreen__modal" ref={modalRef}>
             <div className="modal__left">
                 <div className='modal__container'>
+                    <div className='modal__group'>
                     <div className='modal__about'><img src={about} alt="about" /></div>
                     <div className='btn'><span>Web Developer</span></div>
                     <div className='modal__icon'>
@@ -69,6 +73,7 @@ const Modal = () => {
                             <h1>{modalText.title}</h1>
                             <br /><p><span ref={textRef}>{rotatingTexts[currentIndex]}</span>|{modalText.desc[0]}</p></div>
                     </div>
+                    </div>
                     <div className='modal__contact'>
                         {modalText.desc.slice(1).map((text, index) => (
                             <div key={index}>{text}</div>
@@ -82,7 +87,12 @@ const Modal = () => {
                     <div className='modal__stacks'>
                         {stacks.map((stack, index) => (
                             <div key={index} className='modal__var' data-text={stack}>
-                                {/* 프론트엔드,백엔드,인프라,CI & CD */}
+                                {stackImg[index].stacks.map((s, i) => (
+                                    <div key={i}>
+                                        <img src={s.img} alt={s.name} />
+                                        <h3>{s.name}</h3>
+                                    </div>
+                                ))}
                             </div>
                         ))}
                     </div>

@@ -1,15 +1,29 @@
 import React from "react";
+import { motion} from "framer-motion";
 
+const loadingText = "LOADING....☕";
 
-import { motion } from "framer-motion"
+const Loading = () => {
+  const loadingSequence = [...loadingText].map((char, index) => ({
+    text: char,
+    delay: index * 0.2 
+  }));
 
-export const Loading = () => (
-  <motion.div
-    animate={{
-      scale: [1, 2, 2, 1, 1],
-      rotate: [0, 0, 270, 270, 0],
-      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-    }}
-  />
-)
+  return (
+    <div className="loading__page">
+      {loadingSequence.map(({ text, delay }) => (
+        <motion.div
+          key={text + delay}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay, duration: 0.5 }}
+          style={{ fontSize: '2em' }}
+        >
+          {text}
+        </motion.div>
+      ))}
+    </div>
+  );
+};
+
 export default Loading;
