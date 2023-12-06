@@ -4,6 +4,7 @@
     bottom: 10px;
     left: 50%;
     will-change: transform, opacity;
+    cursor: pointer;
     animation: {
         name: scrollAni;
         duration: 0.75s;
