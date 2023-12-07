@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { projects } from '../constants';
 
-const CardItem = ({i, title, description, img, url, color, progress, range, targetScale}) => {
+const CardItem = ({ i, title, content, img, url, color, progress, range, targetScale }) => {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
@@ -13,14 +13,14 @@ const CardItem = ({i, title, description, img, url, color, progress, range, targ
 
     return (
         <div ref={container} className="card__container">
-            <motion.div 
-                style={{backgroundColor: color, scale, top:`calc(-5vh + ${i * 25}px)`}} 
-                className="card"
+            <motion.div
+                style={{ backgroundColor: color, scale, top: `calc(-5vh + ${i * 25}px)` }}
+                className="card__main"
             >
                 <h2>{title}</h2>
-                <div className="body1">
-                    <div className="description">
-                        <p>{description}</p>
+                <div className="card__body">
+                    <div className="card__content">
+                        <p>{content}</p>
                         <span>
                             <a href={url} target="_blank" rel="noreferrer">See more</a>
                         </span>
@@ -28,7 +28,7 @@ const CardItem = ({i, title, description, img, url, color, progress, range, targ
                     <div className="card__image">
                         <motion.div
                             className="image__inner"
-                            style={{scale: imageScale}}
+                            style={{ scale: imageScale }}
                         >
                             <img src={img} alt={title} />
                         </motion.div>
@@ -47,14 +47,21 @@ const Card = () => {
     });
 
     return (
-        <div ref={container} className="card__main">
-            {
-                projects.map((project, i) => {
-                    const targetScale = 1 - ((projects.length - i) * 0.05);
-                    return <CardItem key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>
-                })
-            }
-        </div>
+        <section id='card'>
+            <div className='card'>
+                <div className='site__inner'>
+                    <div className='site__title'>SITE</div>
+                    <div ref={container} className="card__main">
+                        {
+                            projects.map((project, i) => {
+                                const targetScale = 1 - ((projects.length - i) * 0.05);
+                                return <CardItem key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale} />
+                            })
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 }
 export default Card;

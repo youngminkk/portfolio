@@ -1,9 +1,13 @@
+#skill{
+    background: linear-gradient(-180deg, rgb(209, 250, 199), rgb(123 174 219));
+}
 .slkll__inner {
     padding: 16px;
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 800px){ 
+    @media (max-width: 800px){
+        padding: 0; 
         flex-direction: column;
     }
 
@@ -16,18 +20,18 @@
         font-size: 3vw;
         font-weight: 900;
         line-height: 1.6;
-        font-family: var(--mainKor-font);
         text-transform: uppercase;
-        color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
+        text-decoration: underline;
+        color: cornflowerblue;
 
         @media (max-width: 800px){ 
             width: 100%;
             margin-bottom: 10vw;
             font-size: 30px;
+            text-align: center;
             height: auto;
             top: 0px;
-            background-color: var(--mainBg-color);
+            background-color: #d0f9c7;
         }
 
         em {

@@ -7,17 +7,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const Contact = () => {
+const Portf = () => {
   const swiperRef = useRef(null);
   return (
-    <section id="contact">
-      <div className="contact">
-        <div className="contact__left">
-          <div className="contact__left">
-            <div className="contact__title" >
+    <section id="portf">
+        <div className="portf__title">PORTFOLIO</div>
+        <div className="portf">
+           <div className="portfolio__left">
+            <div className="portfolio__title" >
               <h1>포트폴리오</h1>
             </div>
-            <div className="contact__content">
+            <div className="portfolio__content">
               <p>
                 너무 힘든 포트폴리오
                 <br /> 너무 힘든 포트폴리오
@@ -25,11 +25,10 @@ const Contact = () => {
                 <br /> 너무 힘든 포트폴리오
               </p>
             </div>
-          </div>
         </div>
 
         <div
-          className="contact__right"
+          className="portfolio__right"
           onMouseEnter={() => swiperRef.current.swiper.autoplay.stop()}
           onMouseLeave={() => swiperRef.current.swiper.autoplay.start()}
         >
@@ -75,10 +74,10 @@ const Contact = () => {
               </div>
             ))}
           </Swiper>
+         </div>
         </div>
-      </div>
     </section>
   );
 };
 
-export default Contact;
+export default Portf;

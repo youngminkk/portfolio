@@ -7,7 +7,7 @@ const Skill = () => {
         <section id="skill">
             <div className="slkll__inner">
                 <h2 className="skill__title">
-                    challenge <em>나의 도전</em>
+                    challenge <em></em>
                 </h2>
                 <div className="skill__desc">
                     {skillText.map((skill, key) => (
