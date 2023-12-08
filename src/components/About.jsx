@@ -42,7 +42,7 @@ const About = () => {
         <section id="about">
             <div className="about__inner">
                 <div className="title__wrapper">
-                    <h2 className="about__title">{aboutText.title}</h2>
+                    <h2 className="about__title underline">{aboutText.title}</h2>
                 </div>
                 <div className="about__container">
                     <div className="">

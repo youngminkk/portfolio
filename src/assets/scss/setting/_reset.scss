@@ -67,3 +67,9 @@ img {
 ::-webkit-scrollbar {
     display: none;
 }
+.underline{
+    background-image: linear-gradient(90deg, #95DAC1, #fffd7f);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-position: bottom;
+}

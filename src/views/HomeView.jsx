@@ -3,10 +3,9 @@ import Header from "../components/Header";
 import Skip from "../components/Skip";
 import Intro from "../components/Intro";
 import About from "../components/About";
-import Skill from "../components/Skill";
+import Goals from "../components/Goals";
 import Card from "../components/Card";
 import Portf from "../components/Portf";
-// import Port from "../components/Port";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
 
@@ -18,7 +17,7 @@ const HomeView = () => {
         <Main>
           <Intro />
           <About />
-          <Skill />
+          <Goals />
           <Card />
           <Portf />
           {/* <Port /> */}
