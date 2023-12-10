@@ -22,8 +22,8 @@ import gradleImg from '../assets/img/stack/infra/gradle.png';
 import mavenImg from '../assets/img/stack/infra/maven.png';
 import nginxImg from '../assets/img/stack/infra/nginx.png';
 import tomcatImg from '../assets/img/stack/infra/tomcat.png';
-
-
+import { AiOutlineHome, AiOutlineInfoCircle, AiOutlineRise, AiOutlineFolderOpen } from 'react-icons/ai';
+import { FaRegCreditCard } from 'react-icons/fa';
 
 
 export const headerNav = [
@@ -43,11 +43,40 @@ export const headerNav = [
         title: "portfolio",
         url: "#portf"
     },
-    {
-        title: "project",
-        url: "#port"
-    }
+    // {
+    //     title: "project",
+    //     url: "#port"
+    // }
 ];
+export const navbar = [
+  {
+    title: "intro",
+    url: "#intro",
+    icon: <AiOutlineHome />
+},
+{
+    title: "about",
+    url: "#about",
+    icon: <AiOutlineInfoCircle />
+},
+{
+    title: "goals",
+    url: "#goals",
+    icon: <AiOutlineRise />
+},
+{
+    title: "card",
+    url: "#card",
+    icon: <FaRegCreditCard />
+},
+{
+    title: "portfolio",
+    url: "#portf",
+    icon: <AiOutlineFolderOpen />
+}
+]
+
+
 
 export const aboutText = {
     title: "about",

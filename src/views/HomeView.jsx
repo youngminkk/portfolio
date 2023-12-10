@@ -8,6 +8,8 @@ import Card from "../components/Card";
 import Portf from "../components/Portf";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
+import Navi from "../components/Navi";
+
 
 const HomeView = () => {
   return (
@@ -20,8 +22,8 @@ const HomeView = () => {
           <Goals />
           <Card />
           <Portf />
-          {/* <Port /> */}
         </Main>
+        <Navi />
         <Footer />
       </>
   )
