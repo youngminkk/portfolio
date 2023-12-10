@@ -50,7 +50,7 @@ const Card = () => {
         <section id='card'>
             <div className='card'>
                 <div className='site__inner'>
-                    <div className='site__title'>SITE</div>
+                    <div className='site__title '>SITE</div>
                     <div ref={container} className="card__main">
                         {
                             projects.map((project, i) => {

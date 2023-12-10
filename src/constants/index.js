@@ -1,13 +1,3 @@
-import port01 from "../assets/img/port01.jpg";
-import port02 from "../assets/img/port02.jpg";
-import port03 from "../assets/img/port03.jpg";
-import port04 from "../assets/img/port04.jpg";
-import port05 from "../assets/img/port05.jpg";
-import port06 from "../assets/img/port06.jpg";
-import port07 from "../assets/img/port07.jpg";
-import port08 from "../assets/img/port08.jpg";
-import port09 from "../assets/img/port09.jpg";
-import port10 from "../assets/img/port10.jpg";
 import portf1 from "../assets/img/port/main_work_img_1.jpg";
 import portf2 from "../assets/img/port/main_work_img2.jpg";
 import portf3 from "../assets/img/port/main_work_img3.jpg";
@@ -60,7 +50,7 @@ export const headerNav = [
 ];
 
 export const aboutText = {
-    title: "about me :",
+    title: "about",
     desc: ["Kim Young Min","web developer"],
     about: ["무한히 공부하고 사고하는 개발자가 되고 싶습니다."
     ,"제가 생각하는 개발은 끊임없이 변화하고 발전하는 분야이기에 개발자는 계속해서 새로운 기술과 트렌드에 대해 학습하고 문제를 해결하는 창의적인 사고를 발전시키는 것이 중요하다고 생각합니다."
@@ -83,7 +73,7 @@ export const modalText = {
 export const goalsText = [
     {
         title: "정의하는 개발자가 되고 싶습니다.",
-        desc: " 문제를 잘 해결하려면 문제가 무엇인지부터 잘 정의해야 합니다. 문제를 직면하고 단순히 해결만 잘한다고 좋은 개발자는 아니라 생각합니다. 문제가 왜 생겼으며 추가적으로 발생할 문제가 무엇인지 개발자의 관점, 사용자의 관점에서 바라봐야 합니다. 문제들을 정의하는 것은 창의력이 중요하고 창의력은 기본기에서 나옵니다. 계속해서 공부하고 개발하겠습니다. "
+        desc: "문제를 잘 해결하려면 문제가 무엇인지부터 잘 정의해야 합니다. 문제를 직면하고 단순히 해결 한다고 좋은 개발자는 아니라 생각합니다. 문제가 왜 생겼으며 추가적으로 발생할 문제가 무엇인지 개발자의 관점, 사용자의 관점에서 바라봐야 합니다. 문제들을 정의하는 것은 창의력이 중요하고 창의력은 기본기에서 나옵니다. 계속해서 공부하고 개발하겠습니다. "
     },
     {
         title: "감각 있는 개발자가 되고 싶습니다.",
@@ -91,7 +81,7 @@ export const goalsText = [
     },
     {
         title: "사용자인 개발자가 되고 싶습니다.",
-        desc: " 코드의 품질과 효율성은 개발 프로세스에서 중요한 부분을 차지하며, 이는 프로젝트의 성공을 크게 좌우합니다. 풀스택 개발자로서, 내가 작성하는 코드의 품질을 높이고, 더 효율적인 방법을 지속적으로 연구하고 적용하는 것을 목표로 설정합니다. 이를 위해 코드 리뷰, 테스트 주도 개발(TDD), 리팩토링 등의 방법을 활용하여 코드의 품질을 높이는 데 노력하겠습니다."
+        desc: "저는 사용자 친화적인 환경을 제공하기 위해 다양한 의견과 피드백을 소중히 듣고, 개선점을 파악하여 그에 맞는 기능과 서비스를 제공하겠습니다. 사용자의 편의성과 사용성을 고려한 UI/UX 추구하고, 다양한 기기와 환경에서도 일관된 서비스를 이용할 수 있도록 노력하겠습니다. 사용자들의 개인정보를 보호하고, 데이터의 신뢰성과 안정성을 고려하겠습니다. 사용자들이 서비스를 안심하고 이용할 수 있도록 만들고, 저 또한 개발자인 동시에 사용자가 되겠습니다." 
     }
 ]
 
@@ -179,99 +169,6 @@ export const portFolio = [
         name: "천설* 포트폴리오",
     },
 ]
-export const portText = [
-    {
-        num: "01",
-        title: "어워드에도 올라간 포트폴리오",
-        desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다. 가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다. 이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.",
-        img: port01,
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
-        name: "김상* 포트폴리오",
-    },
-    {
-        num: "02",
-        title: "빛나는 밤에 포트폴리오",
-        desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: port02,
-        code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-        view: "https://portfolio-313.web.app/",
-        name: "천설* 포트폴리오",
-    },
-    {
-        num: "03",
-        title: "열정이 넘치는 포트폴리오",
-        desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: port03,
-        code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-        view: "https://portfolio-313.web.app/",
-        name: "천설* 포트폴리오",
-    },
-    {
-        num: "04",
-        title: "모던한 포트폴리오",
-        desc: "블랙 컨셉과 애니메이션이 돋보이는 포트폴리오 사이트입니다. GSAP를 통한 애니메이션과 NEXT.js를 통해 제작된 포트폴리오입니다. pin 애니메이션을 통한 포폴 작업물의 표현 능력이 돋보이는 사이트입니다.",
-        img: port04,
-        code: "https://github.com/dlgnsrb227/portfolio-next",
-        view: "https://hoongportfolio-next.netlify.app/",
-        name: "이훈* 포트폴리오",
-    },
-    {
-        num: "05",
-        title: "가로모드의 정석 포트폴리오",
-        desc: "이 포트폴리오는 가로모드를 통해 눈에 띄는 애니메이션 효과를 가진 멋진 작품들이 펼쳐집니다. 세션 간의 부드러운 전환과 흥미로운 움직임이 사용자들에게 색다른 경험을 선사합니다. 사이트에는 탁월한 디자인과 창의적인 애니메이션들이 어우러져, 사용자들에게 인상적인 시각적인 효과를 줍니다. 애니메이션은 적절히 사용되어 사이트를 더욱 생동감 있게 만들어주는 포트폴리오입니다.",
-        img: port05,
-        code: "/",
-        view: "https://junseungpark.github.io/portfolio/index3.html",
-        name: "박준* 포트폴리오",
-    },
-    {
-        num: "06",
-        title: "화려함의 정석 포트폴리오",
-        desc: "화려하고 세련된 디자인과 다채로운 색상이 사용된 포트폴리오는 사용자를 홀릴 듯한 시각적인 매력을 지니고 있습니다. 포트폴리오 내의 각 작품들은 디테일한 디자인과 탁월한 시각적 표현력을 갖추고 있어, 주인공의 뛰어난 예술적 감각을 느낄 수 있습니다. 화려한 애니메이션 효과와 부드러운 전환은 사이트를 더욱 생동감 있게 만들어주며, 사용자들에게 색다른 경험을 선사합니다.",
-        img: port06,
-        code: "/",
-        view: "https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html",
-        name: "포트폴리오",
-    },
-    {
-        num: "07",
-        title: "패럴랙스 정석 포트폴리오",
-        desc: "마치 예술작품을 감상하는 듯한 환상적인 경험을 선사하는 포트폴리오입니다. 패럴랙스 스크롤링을 활용하여 구성된 사이트는 사용자들에게 독특하고 멋진 시각적 효과를 제공합니다. 배경과 움직이는 요소들이 조화롭게 어우러져, 사이트 전반에 걸쳐 깊이와 입체감을 느낄 수 있습니다. 스크롤에 따라 움직이는 요소들은 마치 세계를 탐험하는 듯한 느낌을 주며, 사용자들을 끌어들이는 매력적인 요소로 작용합니다.",
-        img: port07,
-        code: "/",
-        view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
-        name: "포트폴리오",
-    },
-    {
-        num: "08",
-        title: "트랜지션 포트폴리오",
-        desc: "화면 전환과 요소들의 흐름이 순조롭고 매끄러운 작품들로 가득한 포트폴리오 사이트입니다. 페이지 간의 트랜지션은 마치 이야기를 풀어내는 듯한 흥미진진한 경험을 선사합니다. 트랜지션 효과의 적절한 활용은 작품들을 보다 동적이고 생동감 있게 만들어줍니다. 각 페이지의 이동이 자연스럽고 사용자들이 원활하게 사이트를 탐색할 수 있도록 배려된 구성은 개발자의 디자인 능력을 잘 보여주는 특징입니다.",
-        img: port08,
-        code: "/",
-        view: "https://webstoryboy.github.io/port2023/portfolio-student/HyunroKim/index.html",
-        name: "포트폴리오",
-    },
-    {
-        num: "09",
-        title: "스크롤의 정석 포트폴리오",
-        desc: "스크롤링을 활용하여 훌륭한 사용자 경험을 선사하는 포트폴리오 사이트입니다. 스크롤을 내리면서 작품들이 순차적으로 나타나고 효과적으로 전환되는 것은 마치 예술적인 이야기를 읽어나가는 듯한 느낌을 주며 사용자를 매료시킵니다. 스크롤의 움직임을 통해 작품들이 서서히 드러나고, 각 페이지 간의 전환은 자연스럽고 부드럽습니다. 이러한 트랜지션과 애니메이션들이 작품들의 내용과 테마를 더욱 강조해줍니다.",
-        img: port09,
-        code: "/",
-        view: "https://webstoryboy.github.io/port2023/portfolio-student/ChoJaeHyung/index.html",
-        name: "포트폴리오",
-    },
-    {
-        num: "10",
-        title: "모던함의 정석 포트폴리오",
-        desc: "현대적이고 세련된 디자인으로 가득한 포트폴리오 사이트입니다. 모던한 느낌과 세심한 디테일이 조화를 이루며, 사용자에게 신선하고 품격 있는 경험을 제공합니다. 사이트의 디자인은 깔끔하고 단정하면서도 특유의 감성과 풍부한 표현력이 느껴집니다. 간결한 레이아웃과 모던한 색상 선택은 주인공의 디자인 감각을 잘 보여주는 특징입니다.",
-        img: port10,
-        code: "/",
-        view: "https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html",
-        name: "포트폴리오",
-    },
-];
-
 
 export const iconLink = [
 {
@@ -338,35 +235,35 @@ export const stackImg = [
     {
       title: "Matthias Leidinger",
       content: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
-      img: port01,
+      img: portf1,
       link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
       color: "#CFB0B6"
     },
     {
       title: "Clément Chapillon",
       content: "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
-      img: port02,
+      img: portf2,
       link: "https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/",
       color: "#B9ADA4"
     },
     {
       title: "Zissou",
       content: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
-      img: port03,
+      img: portf3,
       link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
       color: "#EB6230"
     },
     {
       title: "Mathias Svold and Ulrik Hasemann",
       content: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
-      img: port04,
+      img: portf4,
       link: "https://www.ignant.com/2019/03/13/a-photographic-series-depicting-the-uncertain-future-of-denmarks-treasured-coastlines/",
       color: "#C74145"
     },
     {
       title: "Mark Rammers",
       content: "Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, ",
-      img: port05,
+      img: portf1,
       link: "https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/",
       color: "#CDC38E"
     }

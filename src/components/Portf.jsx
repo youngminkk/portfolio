@@ -11,7 +11,7 @@ const Portf = () => {
   const swiperRef = useRef(null);
   return (
     <section id="portf">
-        <div className="portf__title">PORTFOLIO</div>
+        <div className="portf__title ">PORTFOLIO</div>
         <div className="portf">
            <div className="portfolio__left">
             <div className="portfolio__title" >

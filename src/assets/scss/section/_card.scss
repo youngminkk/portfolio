@@ -12,11 +12,14 @@
 .site__title{
   position: sticky;
   top: 0;
-  font-size: 3vw;
+  font-size: 50px;
   text-align: left;
-  font-weight: 900;
-  text-decoration: underline;
+  font-weight: 800;
   z-index: 3;
+  white-space: nowrap;
+  text-indent: -0.1vw;
+  text-decoration: underline;
+  letter-spacing: -0.2vw;
   color: antiquewhite;
   @media (max-width: 800px){ 
     width: 100%;

@@ -1,5 +1,6 @@
 #goals{
     background: linear-gradient(-180deg, rgb(209, 250, 199), rgb(123 174 219));
+    padding-top: 3rem;
     @media (max-width:350px) {
         padding: 6px
     }
@@ -20,12 +21,15 @@
         left: 0;
         width: 40%;
         height: 4vw;
-        font-size: 3vw;
-        font-weight: 900;
+        font-size: 50px;
+        font-weight: 800;
         line-height: 1.6;
         text-transform: uppercase;
         text-decoration: underline;
         color: #936262;
+        white-space: nowrap;
+        text-indent: -0.1vw;
+        letter-spacing: -0.2vw;
 
         @media (max-width: 800px){ 
             width: 100%;
@@ -67,8 +71,6 @@
         }
         h3 {
             font-size: 1.7rem;
-            text-decoration: underline;
-            text-underline-position: under;
             margin-bottom: 3vw;
             @media (max-width:800px) {
                 text-align: center;
@@ -76,7 +78,7 @@
             }
         }
         p {
-            margin-bottom: 30vh;
+            margin-bottom: 20vh;
             font-size: 1.1rem;
             @media (max-width:800px){
                 line-height: 1.7;

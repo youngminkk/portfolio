@@ -19,12 +19,15 @@
 .portf__title {
   display: flex;
   justify-content: left;
-  font-size: 3vw;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 800;
   line-height: 1.6;
   text-transform: uppercase;
-  text-decoration: underline;
   color: lightslategray;
+  white-space: nowrap;
+  text-decoration: underline;
+  text-indent: -0.1vw;
+  letter-spacing: -0.3vw;
 
   @media (max-width: 800px) {
     width: 100%;
