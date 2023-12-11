@@ -1,7 +1,7 @@
-import portf1 from "../assets/img/port/main_work_img_1.jpg";
-import portf2 from "../assets/img/port/main_work_img2.jpg";
-import portf3 from "../assets/img/port/main_work_img3.jpg";
-import portf4 from "../assets/img/port/main_work_img4.jpg";
+import portf1 from "../assets/img/port/portf1.png";
+import site1 from "../assets/img/site/site1.png";
+import site2 from "../assets/img/site/site2.png";
+import site3 from "../assets/img/site/site3.png";
 import reactImg from '../assets/img/stack/front/react.png';
 import ajaxImg from '../assets/img/stack/front/ajax.png';
 import jsImg from '../assets/img/stack/front/js.png';
@@ -76,8 +76,6 @@ export const navbar = [
 }
 ]
 
-
-
 export const aboutText = {
     title: "about",
     desc: ["Kim Young Min","web developer"],
@@ -114,56 +112,10 @@ export const goalsText = [
     }
 ]
 
-export const siteText = [
-    {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "비트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vite",
-        view: "https://port2023-vite.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
-        ],
-    },
-    {
-        text: ["make", "site compliant with", "react.js"],
-        title: "리액트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-react",
-        view: "https://port2023-react.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
-        ],
-    },
-    {
-        text: ["make", "site compliant with", "vue.js"],
-        title: "뷰를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vue",
-        view: "https://port2023-vue.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
-        ],
-    },
-    {
-        text: ["make", "site compliant with", "next.js"],
-        title: "넥스트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-next",
-        view: "https://port2023-next.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
-        ],
-    },
-];
 export const portFolio = [
     {
         num: "1",
-        title: "어워드에도 올라간 포트폴리오",
+        title: "React로 만든 포트폴리오",
         desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다. 가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다. 이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.",
         img: portf1,
         code: "https://github.com/kimsangjunv1/-React-Portfolio",
@@ -172,27 +124,27 @@ export const portFolio = [
     },
     {
         num: "2",
-        title: "빛나는 밤에 포트폴리오",
+        title: "React로 만든 포트폴리오",
         desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: portf2,
+        img: portf1,
         code: "https://github.com/seolhee313/PORTFOLIO-REACT",
         view: "https://portfolio-313.web.app/",
         name: "천설* 포트폴리오",
     },
     {
         num: "3",
-        title: "열정이 넘치는 포트폴리오",
+        title: "React로 만든 포트폴리오",
         desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: portf3,
+        img: portf1,
         code: "https://github.com/seolhee313/PORTFOLIO-REACT",
         view: "https://portfolio-313.web.app/",
         name: "천설* 포트폴리오",
     },
     {
         num: "4",
-        title: "열정이 넘치는 포트폴리오",
+        title: "React로 만든 포트폴리오",
         desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: portf4,
+        img: portf1,
         code: "https://github.com/seolhee313/PORTFOLIO-REACT",
         view: "https://portfolio-313.web.app/",
         name: "천설* 포트폴리오",
@@ -262,37 +214,37 @@ export const stackImg = [
   //이미지 동적로드는  src, src prop을 키로 사용하여 이미지 렌더링이 쉬움
   export const projects = [
     {
-      title: "Matthias Leidinger",
-      content: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
-      img: portf1,
-      link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+      title: "To Make Light",
+      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
+      img: site1,
+      link: "https://github.com/youngminkk/html-css",
       color: "#CFB0B6"
     },
     {
-      title: "Clément Chapillon",
-      content: "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
-      img: portf2,
-      link: "https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/",
+      title: "Moving",
+      content: "'Moving'은 JSP&Servlet을 활용하여 개발한 웹사이트입니다. HTML5, CSS3, Bootstrap을 사용하여 사용자 인터페이스를 구성, JavaScript와 jQuery를 사용하여 동적인 기능을 추가, Java를 사용하여 서버 측 로직을 구현하였습니다.",
+      img: site2,
+      link: "https://github.com/youngminkk/Movingprj",
       color: "#B9ADA4"
     },
     {
-      title: "Zissou",
-      content: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
-      img: portf3,
+      title: "Carpibara",
+      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
+      img: site3,
       link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
       color: "#EB6230"
     },
     {
       title: "Mathias Svold and Ulrik Hasemann",
-      content: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
-      img: portf4,
+      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
+      img: site1,
       link: "https://www.ignant.com/2019/03/13/a-photographic-series-depicting-the-uncertain-future-of-denmarks-treasured-coastlines/",
       color: "#C74145"
     },
     {
       title: "Mark Rammers",
-      content: "Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, ",
-      img: portf1,
+      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
+      img: site1,
       link: "https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/",
       color: "#CDC38E"
     }

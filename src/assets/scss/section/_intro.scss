@@ -7,5 +7,26 @@
     align-items: center;
 }
 .intro__inner{
-    color: #ffffff; // 텍스트 색상을 하얀색으로 설정
+    width: 33%;
+    color: #ffffff; 
+    position: relative;
 }
+.circle__container, .text__container {
+    position: absolute;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media (max-Width:800px) {
+        width: 500px;
+    }
+  }
+  
+  .circle__container {
+    z-index: 1; 
+  }
+  
+  .text__container {
+    z-index: 2; 
+    text-align: center;
+  }

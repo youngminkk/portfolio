@@ -9,15 +9,15 @@ const Navi = () => {
   return (
     <nav className="navi">
       <button onClick={() => setIsOpen(!isOpen)} className="navi__btn">
-        {isOpen ? "Close" : "Open"}
+        {isOpen ? "Close" : "Menu"}
       </button>
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ width: 0 }}
-            animate={{ width: "auto" }}
-            exit={{ width: 0 }}
-            transition={{ duration: 0.5 }}
+          initial={{ y: "100%", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: "100%", opacity: 0 }}
+          transition={{ duration: 0.5 }}
           >
             {navbar.map((navItem) => (
               <a

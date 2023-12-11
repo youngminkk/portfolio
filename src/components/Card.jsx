@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { projects } from '../constants';
 
-const CardItem = ({ i, title, content, img, url, color, progress, range, targetScale }) => {
+const CardItem = ({ i, title, content, img, link, color, progress, range, targetScale }) => {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
@@ -21,17 +21,16 @@ const CardItem = ({ i, title, content, img, url, color, progress, range, targetS
                 <div className="card__body">
                     <div className="card__content">
                         <p>{content}</p>
-                        <span>
-                            <a href={url} target="_blank" rel="noreferrer">See more</a>
-                        </span>
                     </div>
                     <div className="card__image">
+                    <a href={link} target="_blank" rel="noreferrer"> 
                         <motion.div
                             className="image__inner"
                             style={{ scale: imageScale }}
                         >
                             <img src={img} alt={title} />
                         </motion.div>
+                        </a>
                     </div>
                 </div>
             </motion.div>

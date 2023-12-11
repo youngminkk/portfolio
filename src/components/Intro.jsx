@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Mouse from "../assets/img/mouse.png"
 import { motion } from "framer-motion";
+import CircleAni from "./CircleAni";
 import "../assets/scss/setting/_scrolldown.scss";
 
-const words = ["성장하는", "배우고 싶은", "궁금한"];
+const words = ["성장하는", "배우고 싶은", "궁금한", "소통하는"];
 const delay = 1500; // 각 단어가 화면에 머무는 시간
+const colors = ["#359EEE", "#FFC43D", "#EF476F", "#03CEA4"];
 
 const Intro = () => {
   const [index, setIndex] = useState(0); // 현재 표시되는 단어의 인덱스
@@ -32,6 +34,10 @@ const Intro = () => {
   return (
     <section id="intro">
       <div className="intro__inner">
+      <div className="circle__container">
+        <CircleAni />
+      </div>
+      <div className="text__container">
         <h1>
           {words[index].slice(0, charIndex).split('').map((char, i) => (
             <motion.span
@@ -39,12 +45,14 @@ const Intro = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: i * 0.1 }}
+              style={{ color: colors[index] }}
             >
             {char} 
             </motion.span>
           ))}
-          &nbsp;개발자입니다.
+        <br />개발자입니다‼️
         </h1>
+        </div>
       </div>
       <div className="scroll__down" onClick={() => navigateTo("#about")}>
         <p className="scroll">
