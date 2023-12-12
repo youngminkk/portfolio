@@ -37,6 +37,7 @@ ABOUT, GOALS, SITE, PORTFOLIO, STACK
 ![image](https://github.com/youngminkk/portfolio/assets/146568255/ec0628c7-ad00-4e48-b100-9886b44ee992)
 ![image](https://github.com/youngminkk/portfolio/assets/146568255/af29b4cd-30d4-42f9-97ac-3a8e17758752)
 ![image](https://github.com/youngminkk/portfolio/assets/146568255/9f391a99-9be6-48c3-a5be-60df35300c0a)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/44d1266a-7eb8-43ed-943b-d107384ba87b)
 
 
 
