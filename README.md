@@ -1,74 +1,55 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 프로젝트명: First Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) <br />
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white) <br />
+![Github](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white) <br />
+![VScode](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=Visual%20Studio&logoColor=white) <br />
+<br />
 
-## Available Scripts
 
-In the project directory, you can run:
+## 프로젝트 소개
 
-### `npm start`
+'First PortFolio'는 React를 기반으로 개발된 첫 번째 포트폴리오입니다. <br />
+이 웹사이트의 개발은 여러 애니메이션 및 GSAP, Swiper, Framer, Lenis 등의 다양한 라이브러리를 활용하여 개발되었습니다 <br />
+또한, 반응형 디자인을 구현하여 다양한 디바이스에서도 최적의 사용자 경험을 제공할 수 있도록 개발되었습니다. <br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 프로젝트 개요
 
-### `npm test`
+이 프로젝트는 React로 개발되었으며, 이는 웹사이트의 성능 향상과 개발의 효율성을 위해 선택되었습니다. <br />
+GSAP는 자바스크립트 애니메이션 라이브러리로, 웹사이트의 다양한 요소를 움직이게 해주어 동적인 효과를 추가할 수 있게 해줍니다. <br />
+Swiper는 모바일 터치 슬라이더 라이브러리로, 사용자가 터치를 통해 콘텐츠를 넘겨볼 수 있게 해줍니다. <br />
+Framer는 인터랙티브 디자인 툴로, 사용자와의 상호작용을 위한 인터페이스를 생성하는데 활용되었습니다. <br />
+마지막으로, Lenis는 스크롤 애니메이션 라이브러리로, 웹사이트의 스크롤을 부드럽고 자연스럽게 만들어줍니다. <br />
+'First PortFolio'는 이러한 기술들을 활용하여 사용자에게 새로운 웹 경험을 제공하고자 하였습니다. <br />
+이 웹사이트는 제 개발 능력을 보여주는 첫 번째 포트폴리오로써, 앞으로도 더 많은 기술을 배우고 적용하여 더 나은 웹사이트를 개발하겠습니다. <br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 화면 구성
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ABOUT, GOALS, SITE, PORTFOLIO, STACK
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 화면
+![image](https://github.com/youngminkk/portfolio/assets/146568255/6e514053-bcc2-4fed-be60-cbaac6444535)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/3b6ee8ce-96e8-46c5-813c-8c40c794ca93)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/bde37f50-72e6-4287-b9d2-cd0209f908a5)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/ec0628c7-ad00-4e48-b100-9886b44ee992)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/af29b4cd-30d4-42f9-97ac-3a8e17758752)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/9f391a99-9be6-48c3-a5be-60df35300c0a)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/44d1266a-7eb8-43ed-943b-d107384ba87b)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 환경 설정
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+프로젝트에서 사용된 환경 프로그램 정보는 다음과 같다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| 프로그램 명 | 버전 명  |
+| :---------- | :------- |
+| vscode      | 1.84.2   |
+| React 	    | 18.2.0  |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# portfolio
->>>>>>> main
+### 참조
