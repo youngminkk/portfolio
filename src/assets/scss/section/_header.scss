@@ -96,6 +96,9 @@
         margin: 0px 35px;
         transition: all 0.5s ease-in-out;
         box-sizing: border-box;
+        @media (max-width:390px) {
+            margin: 0;
+        }
     }
     .hamburger li{
         width: 20px;

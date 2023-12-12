@@ -1,7 +1,9 @@
+import test from "../assets/img/test.jpg"
 import portf1 from "../assets/img/port/portf1.png";
 import site1 from "../assets/img/site/site1.png";
 import site2 from "../assets/img/site/site2.png";
 import site3 from "../assets/img/site/site3.png";
+import site4 from "../assets/img/site/site4.png";
 import reactImg from '../assets/img/stack/front/react.png';
 import ajaxImg from '../assets/img/stack/front/ajax.png';
 import jsImg from '../assets/img/stack/front/js.png';
@@ -116,38 +118,38 @@ export const portFolio = [
     {
         num: "1",
         title: "React로 만든 포트폴리오",
-        desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다. 가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다. 이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.",
+        desc: "'First PortFolio'는 React를 기반으로 개발된 첫 번째 포트폴리오입니다. 여러 애니메이션 및 GSAP, Swiper, Framer, Lenis 등의 다양한 라이브러리를 활용하여 개발되었습니다. 또한, 반응형 디자인을 구현하여 사용자의 편의성을 제공했습니다.",
         img: portf1,
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
-        name: "김상* 포트폴리오",
+        code: "",
+        view: "",
+        name: "First Portfolio",
     },
     {
         num: "2",
-        title: "React로 만든 포트폴리오",
-        desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: portf1,
-        code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-        view: "https://portfolio-313.web.app/",
-        name: "천설* 포트폴리오",
+        title: "Test1",
+        desc: "테스트1",
+        img: test,
+        code: "",
+        view: "",
+        name: "Test1",
     },
     {
         num: "3",
-        title: "React로 만든 포트폴리오",
-        desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: portf1,
-        code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-        view: "https://portfolio-313.web.app/",
-        name: "천설* 포트폴리오",
+        title: "Test2",
+        desc: "테스트2",
+        img: test,
+        code: "",
+        view: "",
+        name: "Test2",
     },
     {
         num: "4",
-        title: "React로 만든 포트폴리오",
-        desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-        img: portf1,
-        code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-        view: "https://portfolio-313.web.app/",
-        name: "천설* 포트폴리오",
+        title: "Test3",
+        desc: "테스트3",
+        img: test,
+        code: "",
+        view: "",
+        name: "Test3",
     },
 ]
 
@@ -229,23 +231,23 @@ export const stackImg = [
     },
     {
       title: "Carpibara",
-      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
+      content: "'Carpibara'는 순수 자바를 활용하여 개발한 프로젝트이며, 콘솔 기반으로 설계되었습니다. 'Carpibara' 프로젝트를 통해 저는 자바를 이해하고, 실제로 백엔드 개발에 활용하는 경험을 쌓을 수 있었습니다.",
       img: site3,
-      link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
+      link: "https://github.com/youngminkk/Carpibara",
       color: "#EB6230"
     },
     {
-      title: "Mathias Svold and Ulrik Hasemann",
-      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
-      img: site1,
-      link: "https://www.ignant.com/2019/03/13/a-photographic-series-depicting-the-uncertain-future-of-denmarks-treasured-coastlines/",
+      title: "도시",
+      content: "도시'는 SpringBoot와 React로 만든 사이트입니다.",
+      img: test,
+      link: "",
       color: "#C74145"
     },
     {
-      title: "Mark Rammers",
-      content: "To Make Light'는 HTML과 CSS로만 만든 사이트입니다. 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.",
-      img: site1,
-      link: "https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/",
+      title: "First Portfolio",
+      content: "'First PortFolio'는 React를 기반으로 개발된 첫 번째 포트폴리오입니다. 여러 애니메이션 및 GSAP, Swiper, Framer, Lenis 등의 다양한 라이브러리를 활용하여 개발되었습니다 또한, 반응형 디자인을 구현하여 사용자의 편의성을 제공했습니다.",
+      img: site4,
+      link: "https://github.com/youngminkk/portfolio",
       color: "#CDC38E"
-    }
+    },
   ]

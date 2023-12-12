@@ -23,6 +23,11 @@
       padding: .5rem 1rem;
       gap: .4rem;
     }
+    @media (max-width:390px) {
+      right: -20px;
+      bottom: 12px;
+      padding: .3rem 1rem;
+    }
   }
   .navi:hover {
     background: rgba(165, 157, 157, 0.3);

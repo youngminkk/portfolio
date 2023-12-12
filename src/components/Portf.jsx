@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portFolio } from "../constants";
@@ -8,32 +8,35 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Portf = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
   const swiperRef = useRef(null);
+  const handleSlideChange = (swiper) => {
+    let realIndex = swiper.realIndex;
+    setActiveIndex(realIndex);
+  };
   return (
     <section id="portf">
-        <div className="portf__title ">PORTFOLIO</div>
-        <div className="portf">
-           <div className="portfolio__left">
-            <div className="portfolio__title" >
-              <h1>포트폴리오</h1>
+      <div className="portf__title ">PORTFOLIO</div>
+      <div className="portf">
+        <div className="portf__left">
+          <div className="porf__left__container">
+            <div className="portf__inner__title" >
+              <h1>{portFolio[activeIndex].title}</h1>
             </div>
-            <div className="portfolio__content">
-              <p>
-                너무 힘든 포트폴리오
-                <br /> 너무 힘든 포트폴리오
-                <br /> 너무 힘든 포트폴리오
-                <br /> 너무 힘든 포트폴리오
-              </p>
+            <div className="portf__inner__content">
+              <p>{portFolio[activeIndex].desc}</p>
             </div>
+          </div>
         </div>
 
         <div
-          className="portfolio__right"
+          className="portf__right"
           onMouseEnter={() => swiperRef.current.swiper.autoplay.stop()}
           onMouseLeave={() => swiperRef.current.swiper.autoplay.start()}
         >
           <div></div>
           <Swiper
+            onSlideChangeTransitionEnd={handleSlideChange}
             slidesPerView={1}
             centeredSlides={false}
             grabCursor={true}
@@ -42,17 +45,21 @@ const Portf = () => {
             modules={[Pagination, Autoplay]}
             className="mySwiper"
             autoplay={{
-              delay: 2500,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             ref={swiperRef}
             breakpoints={{
-              1000: {
+              1200: {
                 slidesPerView: 2.3,
                 slidesPerGroup: 1,
               },
+              1000: {
+                slidesPerView: 2,
+                slidesPerGroup: 1,
+              },
               800: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 slidesPerGroup: 1,
               },
               600: {
@@ -74,8 +81,8 @@ const Portf = () => {
               </div>
             ))}
           </Swiper>
-         </div>
         </div>
+      </div>
     </section>
   );
 };

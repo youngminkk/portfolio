@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { projects } from '../constants';
-
+const colors = ['cornsilk', 'darkslategrey', 'floralwhite', '#252121', 'teal'];
 const CardItem = ({ i, title, content, img, link, color, progress, range, targetScale }) => {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -10,6 +10,7 @@ const CardItem = ({ i, title, content, img, link, color, progress, range, target
     });
     const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1]);
     const scale = useTransform(progress, range, [1, targetScale]);
+    const textColor = colors[i % colors.length];
 
     return (
         <div ref={container} className="card__container">
@@ -17,10 +18,10 @@ const CardItem = ({ i, title, content, img, link, color, progress, range, target
                 style={{ backgroundColor: color, scale, top: `calc(-5vh + ${i * 25}px)` }}
                 className="card__main"
             >
-                <h2>{title}</h2>
+                <h2 style={{ color: textColor }}>{title}</h2>
                 <div className="card__body">
                     <div className="card__content">
-                        <p>{content}</p>
+                        <p style={{ color: textColor }}>{content}</p>
                     </div>
                     <div className="card__image">
                     <a href={link} target="_blank" rel="noreferrer"> 

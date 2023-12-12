@@ -180,7 +180,25 @@
         height: 21vh;
     }
 }
-
+@media (max-width:390px) {
+    .about__container{
+    }
+    .about__text {
+        height: 10vh;
+    }
+    .about__text .img{
+        display: none;
+    }
+    .about__inner {
+        justify-content: flex-start
+    }
+    .about__about {
+        font-size: 14px;
+    }
+    .about__image{
+        margin-right: 0;
+    }
+}
 @media (max-width: 350px){ 
     .about__container{
         gap: 0;
