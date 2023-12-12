@@ -1,7 +1,8 @@
 # 프로젝트명: First Portfolio
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) <br />
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white)<br />
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white)<br />
 ![Github](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white) <br />
 ![VScode](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=Visual%20Studio&logoColor=white) <br />
 <br />
