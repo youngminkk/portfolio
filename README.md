@@ -2,7 +2,7 @@
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) <br />
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white)<br />
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white) <br />
 ![Github](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white) <br />
 ![VScode](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=Visual%20Studio&logoColor=white) <br />
 <br />
@@ -10,24 +10,34 @@
 
 ## 프로젝트 소개
 
-'Moving'은 JSP&Servlet을 활용하여 개발한 웹사이트입니다. <br />
+'First PortFolio'는 React를 기반으로 개발된 첫 번째 포트폴리오입니다. <br />
+이 웹사이트의 개발은 여러 애니메이션 및 GSAP, Swiper, Framer, Lenis 등의 다양한 라이브러리를 활용하여 개발되었습니다 <br />
+또한, 반응형 디자인을 구현하여 다양한 디바이스에서도 최적의 사용자 경험을 제공할 수 있도록 개발되었습니다. <br />
 
 
 ## 프로젝트 개요
 
-'Moving'은 온라인 영화 스트리밍 서비스를 제공하는 OTT(Over The Top) 웹사이트 목적으로 개발했습니다. <br />
+이 프로젝트는 React로 개발되었으며, 이는 웹사이트의 성능 향상과 개발의 효율성을 위해 선택되었습니다. <br />
+GSAP는 자바스크립트 애니메이션 라이브러리로, 웹사이트의 다양한 요소를 움직이게 해주어 동적인 효과를 추가할 수 있게 해줍니다. <br />
+Swiper는 모바일 터치 슬라이더 라이브러리로, 사용자가 터치를 통해 콘텐츠를 넘겨볼 수 있게 해줍니다. <br />
+Framer는 인터랙티브 디자인 툴로, 사용자와의 상호작용을 위한 인터페이스를 생성하는데 활용되었습니다. <br />
+마지막으로, Lenis는 스크롤 애니메이션 라이브러리로, 웹사이트의 스크롤을 부드럽고 자연스럽게 만들어줍니다. <br />
+'First PortFolio'는 이러한 기술들을 활용하여 사용자에게 새로운 웹 경험을 제공하고자 하였습니다. <br />
+이 웹사이트는 제 개발 능력을 보여주는 첫 번째 포트폴리오로써, 앞으로도 더 많은 기술을 배우고 적용하여 더 나은 웹사이트를 개발하겠습니다. <br />
 
 
-### 메뉴 구성
+### 화면 구성
 
-메인 페이지, 영화 페이지, 마이 페이지, 게시판, 관리자 페이지
+ABOUT, GOALS, SITE, PORTFOLIO, STACK
 
-### 메인 화면
-![image](https://github.com/youngminkk/Movingprj/assets/146568255/8588c96b-1e9d-4e09-a341-24a269c18ee3)
+### 화면
+![image](https://github.com/youngminkk/portfolio/assets/146568255/6e514053-bcc2-4fed-be60-cbaac6444535){: width="300" height="300"}
+![image](https://github.com/youngminkk/portfolio/assets/146568255/3b6ee8ce-96e8-46c5-813c-8c40c794ca93){: width="300" height="300"}
+![image](https://github.com/youngminkk/portfolio/assets/146568255/bde37f50-72e6-4287-b9d2-cd0209f908a5){: width="300" height="300"}
+![image](https://github.com/youngminkk/portfolio/assets/146568255/ec0628c7-ad00-4e48-b100-9886b44ee992){: width="300" height="300"}
+![image](https://github.com/youngminkk/portfolio/assets/146568255/af29b4cd-30d4-42f9-97ac-3a8e17758752){: width="300" height="300"}
+![image](https://github.com/youngminkk/portfolio/assets/146568255/9f391a99-9be6-48c3-a5be-60df35300c0a){: width="300" height="300"}
 
-
-- **세부 메뉴 화면의 상세기능은 구글 문서 PPT에서 볼 수 있습니다.**
-- **PPT에 제가 맡은 기능 자세히 게시되어있습니다.(메인페이지, 관리자페이지, 고객센터)
 
 
 ## 환경 설정
@@ -37,20 +47,8 @@
 | 프로그램 명 | 버전 명  |
 | :---------- | :------- |
 | vscode      | 1.84.2   |
-| Eclipse	    | Java 8   |
-| MariaDB	    |최신 버전  |
-| Apache Tomcat|	9.0    |
-| Bootstrap	  |  5.0     |
-
+| React 	    | 18.2.0  |
 
 ---
 
 ### 참조
-
-테이블 명세서: [[링크](https://docs.google.com/spreadsheets/d/e/2PACX-1vTyOfiAIveItVHxqsAJf57iTPeVjK1XzJ1M1DLB9PzJWFpPZnF6218H-CqwG0YQ084ifv-xO2JIlOBL/pubhtml?gid=2017311501&single=true)] <br />
-기능 명세서: [[링크](https://docs.google.com/spreadsheets/d/e/2PACX-1vQDitT3fnGcgKlNN_6w9P6_DFTe1uYruFfMVLWOMuHF3KXYVn_HJPAvOM8Z3euOKLNwvs0DQMps9OoG/pubhtml)] <br /> 
-스토리보드: [[링크](https://docs.google.com/presentation/d/e/2PACX-1vSotWbHPlb4ndRDk4paS4v-jP_EuF9yE0WkXl1W6OicESTed1gZA5acMqbBVLfxFq7Qrvphu5pwE1_P/pub?start=false&loop=false&delayms=3000)] <br />
-프로젝트 발표PPT[[링크](https://docs.google.com/presentation/d/e/2PACX-1vTZzHBOoarryGiTt22TAy6sORzfH3YWea5BXPo2-HuDTsweP6gVLa9quVYzJQYZGfh9fdCjAjbCqSOA/pub?start=false&loop=false&delayms=3000)] <br />
-PPT같은 경우 파워포인트에서 구글문서로 옮기는 과정에서 깨짐이 있을 수 있습니다.
-
-
