@@ -31,12 +31,12 @@ Framer는 인터랙티브 디자인 툴로, 사용자와의 상호작용을 위�
 ABOUT, GOALS, SITE, PORTFOLIO, STACK
 
 ### 화면
-![image](https://github.com/youngminkk/portfolio/assets/146568255/6e514053-bcc2-4fed-be60-cbaac6444535){: width="300" height="300"}
-![image](https://github.com/youngminkk/portfolio/assets/146568255/3b6ee8ce-96e8-46c5-813c-8c40c794ca93){: width="300" height="300"}
-![image](https://github.com/youngminkk/portfolio/assets/146568255/bde37f50-72e6-4287-b9d2-cd0209f908a5){: width="300" height="300"}
-![image](https://github.com/youngminkk/portfolio/assets/146568255/ec0628c7-ad00-4e48-b100-9886b44ee992){: width="300" height="300"}
-![image](https://github.com/youngminkk/portfolio/assets/146568255/af29b4cd-30d4-42f9-97ac-3a8e17758752){: width="300" height="300"}
-![image](https://github.com/youngminkk/portfolio/assets/146568255/9f391a99-9be6-48c3-a5be-60df35300c0a){: width="300" height="300"}
+![image](https://github.com/youngminkk/portfolio/assets/146568255/6e514053-bcc2-4fed-be60-cbaac6444535)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/3b6ee8ce-96e8-46c5-813c-8c40c794ca93)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/bde37f50-72e6-4287-b9d2-cd0209f908a5)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/ec0628c7-ad00-4e48-b100-9886b44ee992)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/af29b4cd-30d4-42f9-97ac-3a8e17758752)
+![image](https://github.com/youngminkk/portfolio/assets/146568255/9f391a99-9be6-48c3-a5be-60df35300c0a)
 
 
 
