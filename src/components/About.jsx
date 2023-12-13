@@ -21,7 +21,7 @@ const About = () => {
             scrollTrigger: {
                 trigger: aboutImgRef.current,
                 start: "top bottom",
-                end: "bottom 30%",
+                end: "bottom 20%",
                 toggleActions: "restart pause reverse pause",
             }
         });
@@ -78,9 +78,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="about__about" ref={aboutRef}>
+                        <div className="about__desc" ref={aboutRef}>
                             {aboutText.about.map((text, index) => (
-                            <div key={index} className="about__about__content">
+                            <div key={index} className="about__desc__content">
                                 {text.split('').map((char, i) => <span style={{ opacity: 0 }} key={i}>{char}</span>)}
                             </div>
                     ))}
