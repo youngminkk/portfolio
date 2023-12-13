@@ -79,7 +79,7 @@
     height: 98%;
     background: linear-gradient(180deg, rgb(236, 241, 227, 0.7), rgb(205, 230, 255, 0.7));
     border-radius: 10px;
-    @media (max-width:390px) {
+    @media (max-width:393px) {
       margin: 10px 3px;
     }
   }
@@ -182,7 +182,7 @@ margin: 0;
     display: none;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 393px) {
   .fullscreen__modal {
     padding: 0 34px;
   }

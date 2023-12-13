@@ -80,7 +80,7 @@ const About = () => {
                     <div className="">
                         <div className="about__about" ref={aboutRef}>
                             {aboutText.about.map((text, index) => (
-                            <div key={index}>
+                            <div key={index} className="about__about__content">
                                 {text.split('').map((char, i) => <span style={{ opacity: 0 }} key={i}>{char}</span>)}
                             </div>
                     ))}

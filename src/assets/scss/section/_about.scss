@@ -180,9 +180,12 @@
         height: 21vh;
     }
 }
-@media (max-width:390px) {
+@media (max-width:393px) {
     .about__text {
         height: 10vh;
+    }
+    .about__about__content {
+        color: black;
     }
     .about__text .img{
         display: none;
