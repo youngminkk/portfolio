@@ -3,11 +3,8 @@ import gitIcon from "../assets/img/giticon.png"
 import instaIcon from "../assets/img/instaicon.png"
 import tistoryIcon from "../assets/img/tistoryicon.png"
 import about from "../assets/img/about.jpg";
-import { iconLink } from "../constants";
-import { modalText } from "../constants";
+import { iconLink, modalText, stackImg } from "../constants";
 import { gsap } from 'gsap';
-import { stackImg } from '../constants';
-
 
 const rotatingTexts = ['풀스택', '백엔드', '프론트'];
 const stacks = ["FrontEnd Stack", "BackEnd Stack", "CI & CD", "Infra Stack"];
@@ -23,7 +20,7 @@ const Modal = () => {
             { x: '0%', duration: 1 }
         );
     }, []);
-
+    
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => {

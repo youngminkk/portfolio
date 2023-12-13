@@ -128,6 +128,10 @@
     @media (max-width:800px) {
       flex-direction: column-reverse;
     }
+    @media (max-width:395px) {
+    margin: 20px;
+    padding: 5px;
+    }
     @media (max-width:350px) {
       height: 50vh;
     }

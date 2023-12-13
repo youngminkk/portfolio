@@ -20,8 +20,14 @@
         height: 100%;  
         padding: 0.5rem;  
     }
+    @media (max-width:395px) {
+        padding: 0 5px;
+    }
     .header__logo {
         width: 160px;
+        @media (max-width:395px) {
+            width: 140px;
+        }
     }
     
     .header__nav {
@@ -96,7 +102,7 @@
         margin: 0px 35px;
         transition: all 0.5s ease-in-out;
         box-sizing: border-box;
-        @media (max-width:393px) {
+        @media (max-width:395px) {
             margin: 0;
         }
     }

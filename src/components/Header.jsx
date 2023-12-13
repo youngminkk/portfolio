@@ -19,13 +19,15 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
-            setHideHeader(currentScrollY > lastScrollPosition || currentScrollY <= 0);  
+            if (!modalOpen) {
+                setHideHeader(currentScrollY > lastScrollPosition || currentScrollY <= 0);  
+            }
             setLastScrollPosition(currentScrollY);
         };
-
+    
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [lastScrollPosition]);
+    }, [lastScrollPosition, modalOpen]);
 
     return (
         <header id="header" role="banner" className={hideHeader ? 'hide' : ''}>

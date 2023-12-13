@@ -75,7 +75,12 @@ export const navbar = [
     title: "portfolio",
     url: "#portf",
     icon: <AiOutlineFolderOpen />
-}
+},
+// {
+//     title: "modal",
+//     url: "#modal",
+//     icon: <FaCog  />
+// },
 ]
 
 export const aboutText = {
