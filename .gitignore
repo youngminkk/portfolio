@@ -10,6 +10,13 @@
 
 # production
 /build
+src/components/Intro.jsx
+src/components/Loading.jsx
+src/components/LoadingManager.jsx
+src/components/Modal.jsx
+src/components/Portf.jsx
+src/constants
+src/assets/img
 
 # misc
 .DS_Store
