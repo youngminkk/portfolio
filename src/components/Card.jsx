@@ -1,9 +1,10 @@
 import { useRef } from 'react';
-import { useScroll, useTransform, motion } from 'framer-motion';
+import { useScroll, useTransform, motion} from 'framer-motion';
 import { projects } from '../constants';
 const colors = ['cornsilk', 'darkslategrey', 'floralwhite', '#252121', 'teal'];
 const CardItem = ({ i, title, content, img, link, color, progress, range, targetScale }) => {
     const container = useRef(null);
+    const rotation = i % 2 === 0 ? -1.5 : 1.5;
     const { scrollYProgress } = useScroll({
         target: container,
         offset: ['start end', 'start start']
@@ -17,6 +18,7 @@ const CardItem = ({ i, title, content, img, link, color, progress, range, target
             <motion.div
                 style={{ backgroundColor: color, scale, top: `calc(-5vh + ${i * 25}px)` }}
                 className="card__main"
+                animate={{ rotate: rotation }}
             >
                 <h2 style={{ color: textColor }}>{title}</h2>
                 <div className="card__body">
