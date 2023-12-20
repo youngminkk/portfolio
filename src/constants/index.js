@@ -242,8 +242,8 @@ export const stackImg = [
       color: "#EB6230"
     },
     {
-      title: "도시",
-      content: "도시'는 SpringBoot와 React로 만든 사이트입니다.",
+      title: "Mtago",
+      content: "'Mtago'는 등산에 대한 정보를 종합적으로 제공하는 웹사이트로, 백엔드는 Spring Boot, 프론트엔드는 React를 사용하여 설계되었습니다. 각각의 백엔드와 프론트엔드는 API를 통해 통신하며, 이 프로젝트는 CI/CD 파이프라인을 통해 AWS에 배포되었습니다.",
       img: test,
       link: "",
       color: "#C74145"
